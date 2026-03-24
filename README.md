@@ -19,6 +19,4 @@ pip install -r requirements.txt
 python -m src.train_model          # train + save all models to models/
 ```
 
-The notebook uses **SHAP** for explainability plots (`shap` is in `requirements.txt`). The first SHAP cell can run `%pip install shap` if your environment is missing it.
-
 Run the notebook from the `notebooks/` directory (or set project root on `sys.path` as in the first code cell).
