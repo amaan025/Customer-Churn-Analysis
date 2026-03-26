@@ -241,8 +241,6 @@ The following themes recur across EDA, coefficients, and SHAP. They should be co
 1. `pip install -r requirements.txt`  
 2. `python -m src.train_model` to populate `models/`  
 3. Run `notebooks/churn_analysis_refactored.ipynb` from top to bottom (project root on `sys.path` as in the first code cell).  
-4. `python scripts/generate_report_figures.py` to refresh all figures in `reports/figures/`.  
-5. Regenerate the notebook JSON only if needed: `python scripts/build_churn_notebook.py`.
 
 ---
 
